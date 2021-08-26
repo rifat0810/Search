@@ -1,0 +1,15 @@
+create database command:
+CREATE DATABASE search;
+
+create table command:
+CREATE TABLE live_search (
+    id int NOT NULL AUTO_INCREMENT,
+    first_name varchar(255) NOT NULL,
+    last_name varchar(255) NOT NULL,
+    email varchar(255) NOT NULL,
+    gender varchar(255) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+INSERT INTO live_search (first_name, last_name, email, gender)
+VALUES ('Constance', 'H. Nay', 'ConstanceHNay@rhyta.com', 'female');
